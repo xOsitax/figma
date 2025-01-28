@@ -1,0 +1,124 @@
+body {
+  height: auto;
+  width: 100%;
+  background: #e3e3e3;
+  margin: 0;
+  padding: 0;
+}
+.header {
+  display: flex;
+  align-items: center;
+  max-width: 428px;
+  margin-top: 157px;
+  margin-left: 94px;
+  gap: 30px;
+}
+.header img {
+  display: inline-block;
+}
+.main-title1 {
+  /*title template */
+
+  position: absolute;
+  width: 702px;
+  height: 268px;
+  left: 94px;
+  top: 326px;
+
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 130%;
+
+  color: #434343;
+}
+button {
+  background-color: #ffffff;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 12px 30px;
+  gap: 10px;
+  width: 193px;
+  height: 63px;
+  left: 94px;
+  top: 667px;
+  border-radius: 100px;
+  border: none;
+  font-family: "Segoe UI";
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 39px;
+  text-align: center;
+  color: #434343;
+}
+/* Button 1 */
+.btn1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 12px 30px;
+  gap: 10px;
+
+  position: absolute;
+  width: 193px;
+  height: 63px;
+  left: 94px;
+  top: 667px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.05);
+  border-radius: 100px;
+}
+/* button 2 */
+.btn2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 12px 30px;
+  gap: 10px;
+
+  position: absolute;
+  width: 174px;
+  height: 63px;
+  left: 307px;
+  top: 667px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.05);
+  border-radius: 100px;
+}
+
+.btn3 {
+  /* button 3 */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 12px 30px;
+  gap: 10px;
+
+  position: absolute;
+  width: 170px;
+  height: 63px;
+  left: 501px;
+  top: 667px;
+
+  background: #ffffff;
+  box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.05);
+  border-radius: 100px;
+}
+
+section {
+  display: inline-block;
+}
+
+/* Stories picture */
+.stories {
+  position: absolute;
+  width: 338px;
+  height: 731px;
+  left: 960px;
+  top: 94px;
+  border-radius: 5px;
+}
